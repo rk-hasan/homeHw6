@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+/* Style For Menu One And Tow */
+header{
+    border-bottom: 2px solid #F1F3F8;
+    padding: 5px 0;
+}
+.container{
+   width: 90%;
+   /* border: 1px solid black; */
+   margin: 0 auto;
+   overflow: hidden; 
+}
+.logo{
+    width: 10%;
+    /* border: 1px solid green; */
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 40%;
+    /* border: 1px solid black; */
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    margin-left: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #36353B;
+    font-size: 16px;
+}
+.menu ul li a:hover{
+    color: #0024f0;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/* End Style Menu One And Two */
+
+/* Start Menu Three Style */
+#header3{
+    background-color: black;
+    padding: 10px 0;
+}
+.logo-text{
+    width: 6%;
+    float: left;
+    /* border: 1px solid green; */
+}
+.logo-text a{
+    color: #C33036;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    display: inline-block;
+    padding: 12px 0;
+}
+.menu-content{
+    width: 32%;
+    float: right;
+    /* border: 1px solid red; */
+}
+.menu-content ul{
+    list-style: none;
+    float: right;
+}
+.menu-content ul li{
+    float: left;
+}
+.menu-content ul li a{
+    margin: 0 10px;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #C33036;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-content ul li:last-child a{
+    margin-right: 0;
+}
+/* End Menu Three Style */
+
+/* Start Menu Four Style */
+#header4{}
+.container-4{
+    width: 79%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo-4{
+    width: 16%;
+    /* border: 1px solid green; */
+    float: left;
+    padding: 7px 0;
+}
+.logo-4 a img{
+    float: right;
+}
+.menu-content-4{
+    width: 80%;
+    /* border: 1px solid red; */
+    float: right;
+}
+.menu-content-4 ul{
+    list-style: none;
+    float: right;
+}
+.menu-content-4 ul li{
+    float: left;
+}
+.menu-content-4 ul li:last-child a{
+    margin-right: 0;
+}
+.menu-content-4 ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 10px;
+    color: rgb(121, 117, 117);
+}
+.menu-content-4 ul li a:hover{
+    color: #C33036;
+}
+/* End Menu Three Style */
